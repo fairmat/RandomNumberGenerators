@@ -10,7 +10,6 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QrngWebservice</RootNamespace>
     <AssemblyName>QrngWebservice</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -73,7 +72,8 @@
   <ItemGroup>
     <ProjectReference Include="..\RandomSourcesSupport\RandomSourcesSupport.csproj">
       <Project>{7C4B4A62-E014-4C78-B9E0-BC4CFCB21A96}</Project>
-      <Name>RandomSourceSupport</Name>
+      <Name>RandomSourcesSupport</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

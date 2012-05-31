@@ -27,7 +27,7 @@ namespace RandomSourcesSupport
     /// Performs the startup operations for the plugin.
     /// </summary>
     [Extension("/Fairmat/StartupOperation")]
-    public class QrngWebserviceStartup : ICommand
+    public class RandomSourcesStartup : ICommand
     {
         #region ICommand implementation
         /// <summary>

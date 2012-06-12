@@ -291,7 +291,10 @@ namespace RandomSourcesSupport.FileRandomSource
         /// </summary>
         public string Description
         {
-            get { return "Random numbers from file"; }
+            get
+            {
+                return "Random numbers from file";
+            }
         }
         #endregion // IDescription implementation
     }

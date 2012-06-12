@@ -105,7 +105,10 @@ namespace RandomSourcesSupport
         /// </summary>
         public IRandomVariablesGenerator Transformations
         {
-            get { return null; }
+            get
+            {
+                return null;
+            }
         }
 
         /// <summary>

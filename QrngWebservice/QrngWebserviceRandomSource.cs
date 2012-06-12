@@ -489,7 +489,10 @@ namespace QrngWebservice
         /// </summary>
         public string Description
         {
-            get { return "Qrng.physik.hu-berlin webservice"; }
+            get
+            {
+                return "Qrng.physik.hu-berlin webservice";
+            }
         }
         #endregion // IDescription implementation
     }

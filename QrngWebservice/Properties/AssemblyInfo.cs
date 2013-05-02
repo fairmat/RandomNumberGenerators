@@ -56,7 +56,7 @@ using Mono.Addins;
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
 // Plugin information
-[assembly: Addin("QRNG UniBerlin", "1.0.0", Category = "Random numbers generator")]
+[assembly: Addin("QRNG UniBerlin", "1.0.1", Category = "Random numbers generator")]
 [assembly: AddinDependency("Fairmat", "1.0")]
 [assembly: AddinDependency("Random Sources Support", "1.0.0")]
 [assembly: AddinAuthor("Fairmat SRL")]

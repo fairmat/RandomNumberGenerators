@@ -52,11 +52,11 @@ using Mono.Addins;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.0.2")]
+[assembly: AssemblyFileVersion("1.0.2")]
 
 // Plugin information
-[assembly: Addin("QRNG UniBerlin", "1.0.1", Category = "Random numbers generator")]
+[assembly: Addin("QRNG UniBerlin", "1.0.2", Category = "Random numbers generator")]
 [assembly: AddinDependency("Fairmat", "1.0")]
 [assembly: AddinDependency("Random Sources Support", "1.0.0")]
 [assembly: AddinAuthor("Fairmat SRL")]

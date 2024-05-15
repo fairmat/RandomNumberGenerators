@@ -15,7 +15,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 using System;
-using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using DVPLI;
@@ -43,12 +42,10 @@ namespace QrngWebservice
             QrngWebserviceSettings settings = UserSettings.GetSettings(typeof(QrngWebserviceSettings)) as QrngWebserviceSettings;
             if (string.IsNullOrEmpty(settings.Username) || string.IsNullOrEmpty(settings.Password.Value))
             {
-                //MessageBox.Show(
                 throw new ArgumentNullException(
                     "The credentials for accessing the webservice that retrieves the random numbers are empty." +
                     "\n\rIf you don't have the credentials you can subscribe freely at https://qrng.physik.hu-berlin.de" +
                     "\n\r\n\rYou can enter or change your credentials at any time in Fairmat Settings->Plugins settings");
-                //, "QRNG");
             }
         }
         #endregion // ICommand implementation

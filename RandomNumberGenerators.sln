@@ -1,9 +1,9 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomSourcesSupport", "RandomSourcesSupport\RandomSourcesSupport.csproj", "{7C4B4A62-E014-4C78-B9E0-BC4CFCB21A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomSourcesSupport", "RandomSourcesSupport\RandomSourcesSupport.csproj", "{7C4B4A62-E014-4C78-B9E0-BC4CFCB21A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrngWebservice", "QrngWebservice\QrngWebservice.csproj", "{23F9EBC2-817B-4B4C-BBFE-03C1D4F16216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrngWebservice", "QrngWebservice\QrngWebservice.csproj", "{23F9EBC2-817B-4B4C-BBFE-03C1D4F16216}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

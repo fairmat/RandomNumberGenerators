@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <IncludeLatestPreRelease>true</IncludeLatestPreRelease>
+    <CentralPackageFloatingVersionsEnabled>true</CentralPackageFloatingVersionsEnabled>
+    <FairmatDepsVersion>*-build*</FairmatDepsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <FairmatDepsVersion>*</FairmatDepsVersion>
+  </PropertyGroup>
+
+  <ItemGroup Label="FairmatDeps">
+    <PackageVersion Include="Fairmat.Dvpl.DVPLI" Version="$(FairmatDepsVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="Mono.Addins" Version="1.4.1" />
+    <PackageVersion Include="System.Data.DataSetExtensions" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
